@@ -1,0 +1,26 @@
+Model ID: cardiffnlp/twitter-roberta-base-sentiment-latest
+Text Preprocessing: True
+Expected Labels: ['negative', 'neutral', 'positive']
+Dataframe Length: 498
+
+-----------------------------------
+
+Accuracy: 0.8674698795180723
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.94      0.82      0.88       177
+     neutral       0.83      0.86      0.85       139
+    positive       0.84      0.91      0.88       182
+
+    accuracy                           0.87       498
+   macro avg       0.87      0.87      0.87       498
+weighted avg       0.87      0.87      0.87       498
+
+
+Confusion Matrix: 
+
+[[146  14  17]
+ [  5 120  14]
+ [  5  11 166]]

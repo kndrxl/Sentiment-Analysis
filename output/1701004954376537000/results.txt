@@ -1,0 +1,26 @@
+Model ID: citizenlab/twitter-xlm-roberta-base-sentiment-finetunned
+Text Preprocessing: False
+Expected Labels: ['negative', 'neutral', 'positive']
+Dataframe Length: 498
+
+-----------------------------------
+
+Accuracy: 0.7208835341365462
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.90      0.63      0.74       177
+     neutral       0.54      0.95      0.69       139
+    positive       0.91      0.63      0.74       182
+
+    accuracy                           0.72       498
+   macro avg       0.78      0.74      0.72       498
+weighted avg       0.80      0.72      0.73       498
+
+
+Confusion Matrix: 
+
+[[112  55  10]
+ [  5 132   2]
+ [  8  59 115]]

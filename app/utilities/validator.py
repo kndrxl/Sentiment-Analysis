@@ -10,8 +10,11 @@ from pydantic import (
 
 class Instance(BaseModel):
     model_name: Literal[
+        'citizenlab/twitter-xlm-roberta-base-sentiment-finetunned',
         'cardiffnlp/twitter-roberta-base-sentiment',
         'cardiffnlp/twitter-xlm-roberta-base-sentiment',
+        'cardiffnlp/bertweet-base-sentiment',
+        'finiteautomata/bertweet-base-sentiment-analysis',
         'cardiffnlp/twitter-roberta-base-sentiment-latest'
     ]='cardiffnlp/twitter-roberta-base-sentiment-latest'
 

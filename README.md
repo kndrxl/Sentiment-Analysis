@@ -14,7 +14,7 @@ git clone git@github.com:kndrxl/Sentiment-Analysis.git
 cd Sentiment-Analysis
 ```
 
-Download models --> [here](https://drive.google.com/file/d/14XXS5jTmEhtXGQzyar5x55nJpnQ-KYfZ/view?usp=sharing) and extract the zip file to the root directory of the repo.
+Download models --> [here](https://drive.google.com/file/d/1lojS2C98x6VGauwMRcrZ93IQseIdlzsM/view?usp=sharing) and extract the zip file to the root directory of the repo.
 
 
 ```bash
